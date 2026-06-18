@@ -45,7 +45,7 @@ Inspector-specific observation noise is learned from data by **Analytical Gaussi
 - **Monotonic by construction** — each branch can only move in one direction, matching the physical irreversibility of deterioration without maintenance.
 - **Fully analytical** — filtering, smoothing, forecasting, and inspector learning all have closed-form updates. No sampling, no iterative solvers.
 - **Scalable** — constant cost per element per time step; tested on networks of thousands of elements.
-- **Well-calibrated** — predictive intervals achieve nominal coverage on both synthetic and real inspection data; standardized residuals are approximately N(0,1).
+- **Well-calibrated** — predictive intervals achieve nominal coverage on both synthetic and real inspection data; standardized residuals are approximately N(0,1) in the deterioration range.
 
 ---
 
