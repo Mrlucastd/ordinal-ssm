@@ -1,0 +1,21 @@
+name: mtqOpenIPDM
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pandas>=1.5.0
+  - numpy>=1.21.0
+  - pyarrow>=10.0.0
+  - zarr>=2.12.0
+  - pyyaml>=6.0
+  - loguru>=0.6.0
+  - pyodbc>=4.0.0
+  - matplotlib>=3.5.0
+  - pip
+  - pip:
+    - pypyodbc>=1.3.0
+    # Note: mdbtools needs to be installed via system package manager
+    # Linux: sudo apt install mdbtools
+    # macOS: brew install mdbtools
+    # Windows: Install WSL and then: sudo apt install mdbtools
